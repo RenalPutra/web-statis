@@ -1,6 +1,10 @@
 .bg-nav{
     background-color: #041741;
 }
+header{
+	border-bottom: 5px solid #030029;
+}
+
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
 	.navbar .nav-item:hover .nav-link{ color: #fff;  }
